@@ -1,17 +1,15 @@
 import turtle
-from turtle import *
+from turtle import*
 t = Turtle()
 
-t.forward(200)
+def rectangle():
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+rectangle()
 
-def square(x):
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-square(200)
 turtle.done()

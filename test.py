@@ -2,9 +2,64 @@ import turtle
 from turtle import *
 t = Turtle()
 
-
 t.shape('turtle')
 
-t.forward(200)
-lioasdjfhgiop;afk
+""" t.forward(200) """
+
+""" def square(x):
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+    t.forward(x)
+    t.left(90)
+square(200)
+ """
+""" def equal(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+equal(200) 
+
+def right():
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.left(135)
+    t.forward(142)
+right()
+ """
+
+""" def rectangle():
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+rectangle() """
+
+""" def equal():
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+equal() """
+
+""" for i in range(3):
+    print(i) """
+for i in range(60):
+    t.forward(110)
+    t.left(120)
+    t.forward(110)
+    t.left(120)
+    t.forward(110)
+    t.left(1)
+t.speed(0)
 turtle.done()
