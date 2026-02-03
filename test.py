@@ -100,7 +100,7 @@ def addSquares(iRange):
         length += 25
 addSquares(5)
  """
-def Square(x,y):
+""" def Square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
@@ -112,6 +112,19 @@ def addSquares(iRange):
         length += 5
         t.right(5)
         t.speed(0)
-addSquares(60)
-
+addSquares(60) """
+""" 
+def Star(x,y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
+Star(5,144)
+def addStars(iRange):
+    length = 5
+    for i in range(iRange):
+        Star(length,144)
+        length += 5
+        t.right(5)
+        t.speed(0)
+addStars(59) """
 turtle.done() 
